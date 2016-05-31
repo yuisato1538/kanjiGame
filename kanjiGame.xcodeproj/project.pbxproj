@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		169BFDCA1CFD9FE200695385 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169BFDC91CFD9FE200695385 /* AppDelegate.swift */; };
+		169BFDCC1CFD9FE200695385 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169BFDCB1CFD9FE200695385 /* ViewController.swift */; };
+		169BFDCF1CFD9FE200695385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169BFDCD1CFD9FE200695385 /* Main.storyboard */; };
+		169BFDD11CFD9FE200695385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 169BFDD01CFD9FE200695385 /* Assets.xcassets */; };
+		169BFDD41CFD9FE200695385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169BFDD21CFD9FE200695385 /* LaunchScreen.storyboard */; };
+		169BFDDF1CFD9FE200695385 /* kanjiGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169BFDDE1CFD9FE200695385 /* kanjiGameTests.swift */; };
+		169BFDEA1CFD9FE200695385 /* kanjiGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169BFDE91CFD9FE200695385 /* kanjiGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		169BFDDB1CFD9FE200695385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 169BFDBE1CFD9FE200695385 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 169BFDC51CFD9FE200695385;
+			remoteInfo = kanjiGame;
+		};
+		169BFDE61CFD9FE200695385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 169BFDBE1CFD9FE200695385 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 169BFDC51CFD9FE200695385;
+			remoteInfo = kanjiGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		169BFDC61CFD9FE200695385 /* kanjiGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kanjiGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		169BFDC91CFD9FE200695385 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		169BFDCB1CFD9FE200695385 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		169BFDCE1CFD9FE200695385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		169BFDD01CFD9FE200695385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		169BFDD31CFD9FE200695385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		169BFDD51CFD9FE200695385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169BFDDA1CFD9FE200695385 /* kanjiGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kanjiGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		169BFDDE1CFD9FE200695385 /* kanjiGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kanjiGameTests.swift; sourceTree = "<group>"; };
+		169BFDE01CFD9FE200695385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169BFDE51CFD9FE200695385 /* kanjiGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kanjiGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		169BFDE91CFD9FE200695385 /* kanjiGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kanjiGameUITests.swift; sourceTree = "<group>"; };
+		169BFDEB1CFD9FE200695385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		169BFDC31CFD9FE200695385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169BFDD71CFD9FE200695385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169BFDE21CFD9FE200695385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		169BFDBD1CFD9FE200695385 = {
+			isa = PBXGroup;
+			children = (
+				169BFDC81CFD9FE200695385 /* kanjiGame */,
+				169BFDDD1CFD9FE200695385 /* kanjiGameTests */,
+				169BFDE81CFD9FE200695385 /* kanjiGameUITests */,
+				169BFDC71CFD9FE200695385 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		169BFDC71CFD9FE200695385 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				169BFDC61CFD9FE200695385 /* kanjiGame.app */,
+				169BFDDA1CFD9FE200695385 /* kanjiGameTests.xctest */,
+				169BFDE51CFD9FE200695385 /* kanjiGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		169BFDC81CFD9FE200695385 /* kanjiGame */ = {
+			isa = PBXGroup;
+			children = (
+				169BFDC91CFD9FE200695385 /* AppDelegate.swift */,
+				169BFDCB1CFD9FE200695385 /* ViewController.swift */,
+				169BFDCD1CFD9FE200695385 /* Main.storyboard */,
+				169BFDD01CFD9FE200695385 /* Assets.xcassets */,
+				169BFDD21CFD9FE200695385 /* LaunchScreen.storyboard */,
+				169BFDD51CFD9FE200695385 /* Info.plist */,
+			);
+			path = kanjiGame;
+			sourceTree = "<group>";
+		};
+		169BFDDD1CFD9FE200695385 /* kanjiGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				169BFDDE1CFD9FE200695385 /* kanjiGameTests.swift */,
+				169BFDE01CFD9FE200695385 /* Info.plist */,
+			);
+			path = kanjiGameTests;
+			sourceTree = "<group>";
+		};
+		169BFDE81CFD9FE200695385 /* kanjiGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				169BFDE91CFD9FE200695385 /* kanjiGameUITests.swift */,
+				169BFDEB1CFD9FE200695385 /* Info.plist */,
+			);
+			path = kanjiGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		169BFDC51CFD9FE200695385 /* kanjiGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169BFDEE1CFD9FE200695385 /* Build configuration list for PBXNativeTarget "kanjiGame" */;
+			buildPhases = (
+				169BFDC21CFD9FE200695385 /* Sources */,
+				169BFDC31CFD9FE200695385 /* Frameworks */,
+				169BFDC41CFD9FE200695385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kanjiGame;
+			productName = kanjiGame;
+			productReference = 169BFDC61CFD9FE200695385 /* kanjiGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		169BFDD91CFD9FE200695385 /* kanjiGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169BFDF11CFD9FE200695385 /* Build configuration list for PBXNativeTarget "kanjiGameTests" */;
+			buildPhases = (
+				169BFDD61CFD9FE200695385 /* Sources */,
+				169BFDD71CFD9FE200695385 /* Frameworks */,
+				169BFDD81CFD9FE200695385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				169BFDDC1CFD9FE200695385 /* PBXTargetDependency */,
+			);
+			name = kanjiGameTests;
+			productName = kanjiGameTests;
+			productReference = 169BFDDA1CFD9FE200695385 /* kanjiGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		169BFDE41CFD9FE200695385 /* kanjiGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169BFDF41CFD9FE200695385 /* Build configuration list for PBXNativeTarget "kanjiGameUITests" */;
+			buildPhases = (
+				169BFDE11CFD9FE200695385 /* Sources */,
+				169BFDE21CFD9FE200695385 /* Frameworks */,
+				169BFDE31CFD9FE200695385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				169BFDE71CFD9FE200695385 /* PBXTargetDependency */,
+			);
+			name = kanjiGameUITests;
+			productName = kanjiGameUITests;
+			productReference = 169BFDE51CFD9FE200695385 /* kanjiGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		169BFDBE1CFD9FE200695385 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Yui Sato";
+				TargetAttributes = {
+					169BFDC51CFD9FE200695385 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					169BFDD91CFD9FE200695385 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 169BFDC51CFD9FE200695385;
+					};
+					169BFDE41CFD9FE200695385 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 169BFDC51CFD9FE200695385;
+					};
+				};
+			};
+			buildConfigurationList = 169BFDC11CFD9FE200695385 /* Build configuration list for PBXProject "kanjiGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 169BFDBD1CFD9FE200695385;
+			productRefGroup = 169BFDC71CFD9FE200695385 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				169BFDC51CFD9FE200695385 /* kanjiGame */,
+				169BFDD91CFD9FE200695385 /* kanjiGameTests */,
+				169BFDE41CFD9FE200695385 /* kanjiGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		169BFDC41CFD9FE200695385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169BFDD41CFD9FE200695385 /* LaunchScreen.storyboard in Resources */,
+				169BFDD11CFD9FE200695385 /* Assets.xcassets in Resources */,
+				169BFDCF1CFD9FE200695385 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169BFDD81CFD9FE200695385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169BFDE31CFD9FE200695385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		169BFDC21CFD9FE200695385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169BFDCC1CFD9FE200695385 /* ViewController.swift in Sources */,
+				169BFDCA1CFD9FE200695385 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169BFDD61CFD9FE200695385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169BFDDF1CFD9FE200695385 /* kanjiGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169BFDE11CFD9FE200695385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169BFDEA1CFD9FE200695385 /* kanjiGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		169BFDDC1CFD9FE200695385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 169BFDC51CFD9FE200695385 /* kanjiGame */;
+			targetProxy = 169BFDDB1CFD9FE200695385 /* PBXContainerItemProxy */;
+		};
+		169BFDE71CFD9FE200695385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 169BFDC51CFD9FE200695385 /* kanjiGame */;
+			targetProxy = 169BFDE61CFD9FE200695385 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		169BFDCD1CFD9FE200695385 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				169BFDCE1CFD9FE200695385 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		169BFDD21CFD9FE200695385 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				169BFDD31CFD9FE200695385 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		169BFDEC1CFD9FE200695385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		169BFDED1CFD9FE200695385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		169BFDEF1CFD9FE200695385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kanjiGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.kanjiGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		169BFDF01CFD9FE200695385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kanjiGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.kanjiGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		169BFDF21CFD9FE200695385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kanjiGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.kanjiGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kanjiGame.app/kanjiGame";
+			};
+			name = Debug;
+		};
+		169BFDF31CFD9FE200695385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kanjiGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.kanjiGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kanjiGame.app/kanjiGame";
+			};
+			name = Release;
+		};
+		169BFDF51CFD9FE200695385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kanjiGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.kanjiGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kanjiGame;
+			};
+			name = Debug;
+		};
+		169BFDF61CFD9FE200695385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kanjiGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.kanjiGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kanjiGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		169BFDC11CFD9FE200695385 /* Build configuration list for PBXProject "kanjiGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169BFDEC1CFD9FE200695385 /* Debug */,
+				169BFDED1CFD9FE200695385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169BFDEE1CFD9FE200695385 /* Build configuration list for PBXNativeTarget "kanjiGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169BFDEF1CFD9FE200695385 /* Debug */,
+				169BFDF01CFD9FE200695385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		169BFDF11CFD9FE200695385 /* Build configuration list for PBXNativeTarget "kanjiGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169BFDF21CFD9FE200695385 /* Debug */,
+				169BFDF31CFD9FE200695385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		169BFDF41CFD9FE200695385 /* Build configuration list for PBXNativeTarget "kanjiGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169BFDF51CFD9FE200695385 /* Debug */,
+				169BFDF61CFD9FE200695385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 169BFDBE1CFD9FE200695385 /* Project object */;
+}
