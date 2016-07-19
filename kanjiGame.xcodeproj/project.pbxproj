@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16830F561D194ACA00F5C5A6 /* maru.png in Resources */ = {isa = PBXBuildFile; fileRef = 16830F551D194ACA00F5C5A6 /* maru.png */; };
+		16830F581D194AD600F5C5A6 /* batsu.png in Resources */ = {isa = PBXBuildFile; fileRef = 16830F571D194AD600F5C5A6 /* batsu.png */; };
 		169BFDCA1CFD9FE200695385 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169BFDC91CFD9FE200695385 /* AppDelegate.swift */; };
 		169BFDCC1CFD9FE200695385 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169BFDCB1CFD9FE200695385 /* ViewController.swift */; };
 		169BFDCF1CFD9FE200695385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169BFDCD1CFD9FE200695385 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		169BFDD41CFD9FE200695385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169BFDD21CFD9FE200695385 /* LaunchScreen.storyboard */; };
 		169BFDDF1CFD9FE200695385 /* kanjiGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169BFDDE1CFD9FE200695385 /* kanjiGameTests.swift */; };
 		169BFDEA1CFD9FE200695385 /* kanjiGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169BFDE91CFD9FE200695385 /* kanjiGameUITests.swift */; };
+		16B3C5401D3E2C36000A3525 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B3C53F1D3E2C36000A3525 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16830F551D194ACA00F5C5A6 /* maru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maru.png; sourceTree = "<group>"; };
+		16830F571D194AD600F5C5A6 /* batsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batsu.png; sourceTree = "<group>"; };
 		169BFDC61CFD9FE200695385 /* kanjiGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kanjiGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		169BFDC91CFD9FE200695385 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		169BFDCB1CFD9FE200695385 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		169BFDE51CFD9FE200695385 /* kanjiGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kanjiGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		169BFDE91CFD9FE200695385 /* kanjiGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kanjiGameUITests.swift; sourceTree = "<group>"; };
 		169BFDEB1CFD9FE200695385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16B3C53F1D3E2C36000A3525 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,11 @@
 		169BFDC81CFD9FE200695385 /* kanjiGame */ = {
 			isa = PBXGroup;
 			children = (
+				16830F571D194AD600F5C5A6 /* batsu.png */,
+				16830F551D194ACA00F5C5A6 /* maru.png */,
 				169BFDC91CFD9FE200695385 /* AppDelegate.swift */,
 				169BFDCB1CFD9FE200695385 /* ViewController.swift */,
+				16B3C53F1D3E2C36000A3525 /* ResultViewController.swift */,
 				169BFDCD1CFD9FE200695385 /* Main.storyboard */,
 				169BFDD01CFD9FE200695385 /* Assets.xcassets */,
 				169BFDD21CFD9FE200695385 /* LaunchScreen.storyboard */,
@@ -229,6 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16830F581D194AD600F5C5A6 /* batsu.png in Resources */,
+				16830F561D194ACA00F5C5A6 /* maru.png in Resources */,
 				169BFDD41CFD9FE200695385 /* LaunchScreen.storyboard in Resources */,
 				169BFDD11CFD9FE200695385 /* Assets.xcassets in Resources */,
 				169BFDCF1CFD9FE200695385 /* Main.storyboard in Resources */,
@@ -258,6 +269,7 @@
 			files = (
 				169BFDCC1CFD9FE200695385 /* ViewController.swift in Sources */,
 				169BFDCA1CFD9FE200695385 /* AppDelegate.swift in Sources */,
+				16B3C5401D3E2C36000A3525 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +494,7 @@
 				169BFDF01CFD9FE200695385 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		169BFDF11CFD9FE200695385 /* Build configuration list for PBXNativeTarget "kanjiGameTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +503,7 @@
 				169BFDF31CFD9FE200695385 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		169BFDF41CFD9FE200695385 /* Build configuration list for PBXNativeTarget "kanjiGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +512,7 @@
 				169BFDF61CFD9FE200695385 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
